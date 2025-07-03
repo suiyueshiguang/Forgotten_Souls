@@ -17,8 +17,10 @@
 *.mp4
 *.mov
 *.psd
+*.ogg
 /Assets/Graphics/Font/*.ttf
-!/Assets/Graphics/Font/*.lfs
+/Assets/Graphics/Font/*.asset
+/Assets/Graphics/Font/*.lfs
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
