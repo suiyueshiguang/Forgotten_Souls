@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8973555678282658628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2897824605893233439}
+  - component: {fileID: 1214552475812185158}
+  - component: {fileID: 2331844780812953758}
+  - component: {fileID: 8070936274184383221}
+  - component: {fileID: 6345517272180436305}
+  - component: {fileID: 3556148920983730886}
+  - component: {fileID: 1568589253482682705}
+  - component: {fileID: 8802055036845744739}
+  - component: {fileID: 335688861287318760}
+  m_Layer: 0
+  m_Name: SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2897824605893233439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1214552475812185158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d89aa1a316bed24b9dc0c80957b6c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillTreeFullPath: Canvas(Clone)/SkillTree_UI/SkillTree_Background
+--- !u!114 &2331844780812953758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af24f6a4a0a19847a92ed9043bdbcf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 2.5
+  cooldownTimer: 0
+  skillSoundName: 
+  dashSkillName: "\u51B2\u523A"
+  cloneOnDashSkillName: "\u6211\u5728\u8FD9"
+  cloneOnArrivalSkillName: "\u6211\u5728\u54EA"
+--- !u!114 &8070936274184383221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f593ce3d35fb94483dc1ea0bf43d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 2.5
+  cooldownTimer: 0
+  skillSoundName: 
+  clonePrefab: {fileID: 3803279252122086943, guid: 5310c0b330170324dac6c2083361f5bf, type: 3}
+  cloneDuration: 1.5
+  attackMultiplier: 0
+  cloneAttackSkillName: "\u6B8B\u50CF"
+  cloneAttackMultiplier: 0.3
+  canAttack: 0
+  aggresiveCloneSkillName: "\u5206\u8EAB"
+  aggresiveCloneAttackMultiplier: 0.8
+  multipleSkillName: "\u591A\u91CD\u6B8B\u50CF"
+  multipleCloneAttackMultiplier: 0.2
+  canDuplicateClone: 0
+  chanceToDuplicate: 30
+  crystalInsteadSkillName: "\u6295\u5F71"
+  crystalInseadOfClone: 0
+--- !u!114 &6345517272180436305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a109fdaeab5d9e49b504a15f637a4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  cooldownTimer: 0
+  skillSoundName: 
+  swordType: 1
+  timeStopSkillName: "\u786C\u76F4\u5316"
+  vulnerableSkillName: "\u7834\u7532"
+  swordSkillName: "\u629B\u7269\u5251"
+  swordPrefab: {fileID: 4366981032369933174, guid: 338b78bbd94b8d4469a2c92dff3029f0, type: 3}
+  launchForce: {x: 35, y: 20}
+  swordGravity: 4
+  freezeTimeDuration: 0.5
+  returnSpeed: 15
+  pierceSkillName: "\u98DE\u5251"
+  pierceGravity: 0.5
+  pierceAmount: 2
+  launchForceVelocityY: 7.5
+  bounceSkillName: "\u5F39\u5C04\u5251"
+  bounceAmount: 4
+  bounceGravity: 5
+  bounceSpeed: 20
+  spinSkillName: "\u56DE\u65CB\u5251"
+  hitCooldown: 0.35
+  maxTraveDistance: 7
+  spinDuration: 2
+  spinGravity: 1
+  numberOfDots: 20
+  spaceBetweenDots: 0.07
+  dotPrefab: {fileID: 2831897319639387572, guid: 203da06d32225b249a592a9346f6ff2e, type: 3}
+--- !u!114 &3556148920983730886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172d69a7d4a75f74a9a81947d2ef5e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 60
+  cooldownTimer: 0
+  skillSoundName: BlackholeSkill
+  blackHoleSkillName: "\u9ED1\u6D1E"
+  blackHolePrefab: {fileID: 3021733392305477262, guid: 6aafad10f59c1494fbf431c4d4d8d570, type: 3}
+  maxSize: 20
+  growSpeed: 1
+  shrinkSpeed: 2
+  amountOfAttacks: 6
+  CloneCooldown: 0.3
+  blackholeDuration: 4
+--- !u!114 &1568589253482682705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11328ecf90d11d41b7c44be72bc2512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0.5
+  cooldownTimer: 0
+  skillSoundName: 
+  crystalPrefab: {fileID: 1057772521211306541, guid: 01a1934a48df16345bd356028c3b3632, type: 3}
+  crystalDuration: 5
+  crystalSkillName: "\u6C34\u6676"
+  instandSkillName: "\u6C34\u6676\u77AC\u79FB"
+  cloneInsteadOfCrystal: 0
+  explosiveSkillName: "\u6C34\u6676\u7206\u70B8"
+  explosiveCooldown: 3
+  canExplode: 0
+  movingCrystalSkillName: "\u66F4\u597D\u63A7\u5236"
+  moveSpeed: 5
+  canMoveToEnemy: 0
+  multiStackSkillName: "\u66F4\u591A\u6C34\u6676"
+  canUseMultiStacks: 0
+  amountOfStacks: 3
+  multiStackCooldown: 5
+  useTimerWindow: 2
+--- !u!114 &8802055036845744739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e383f03ca945a94e844b3af6b2b27b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0.6
+  cooldownTimer: 0
+  skillSoundName: 
+  parrySkillName: "\u62DB\u67B6"
+  restoreSkillName: "\u62DB\u67B6\u6062\u590D"
+  restoreHealthPercentage: 0.05
+  parryWithMirageSkillName: "\u5FEB\u901F\u53CD\u5E94"
+--- !u!114 &335688861287318760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973555678282658628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae9066b2212ca04bb7cbcee0bfe72ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 0
+  cooldownTimer: 0
+  skillSoundName: 
+  dodgeSkillName: "\u95EA\u907F"
+  evasionAmount: 10
+  dodgeUnlocked: 0
+  mirageDodgeSkillName: "\u56DE\u51FB"
+  dodgeMirageUnlocked: 0

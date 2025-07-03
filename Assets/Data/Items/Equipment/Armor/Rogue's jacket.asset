@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65947d0c70a232543b32ee9a869cfd37, type: 3}
+  m_Name: Rogue's jacket
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u76D7\u8D3C\u76D4\u7532"
+  icon: {fileID: 1667790894, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  dropChange: 0
+  equipmentType: 1
+  itemCooldown: 0
+  itemEffects:
+  - {fileID: 11400000, guid: 713eb40688c1e204b9aa18b9d9d408c0, type: 2}
+  itemEffectDescription: "\u7279\u70B9\uFF1A\u589E\u52A0\u5C11\u91CF\u654F\u6377\uFF0C\u4E2D\u7B49\u751F\u547D\u503C\u548C\u7ED9\u4E88\u5927\u91CF\u95EA\u907F"
+  strength: 0
+  agility: 5
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critateChance: 0
+  critatePower: 0
+  health: 50
+  armor: 0
+  evasion: 20
+  magicResistance: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightningDamage: 0
+  craftingMaterials: []

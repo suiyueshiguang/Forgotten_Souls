@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1490814349241288954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7991919104771433425}
+  - component: {fileID: 2762540896521849511}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7991919104771433425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490814349241288954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2762540896521849511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490814349241288954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bb235b7efc3cc468c991fb1da1181c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingItems:
+  - {fileID: 11400000, guid: 1f73fdb634ecfd146acbe02c9434e78c, type: 2}
+  - {fileID: 11400000, guid: d7b8b457ab683f841abec4912344ffd2, type: 2}
+  - {fileID: 11400000, guid: 51a3d779a8faa11418534438a361b2cc, type: 2}
+  - {fileID: 11400000, guid: 4ff73637899513c48bf53e3ff8ca0d28, type: 2}
+  - {fileID: 11400000, guid: ee7bf471afa1db24bba5533d1ace59d5, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  equipment: []
+  inventory: []
+  stash: []
+  inventoryFullPath: DontDestroy/Canvas(Clone)/Character_UI/Equipment_and_Inventory/Inventory
+  stashFullPath: DontDestroy/Canvas(Clone)/Craft_UI/Stash
+  equipmentFullPath: DontDestroy/Canvas(Clone)/Character_UI/Equipment_and_Inventory/Equipment
+  statFullPath: DontDestroy/Canvas(Clone)/Character_UI/Stats
+  itemDataBase:
+  - {fileID: 11400000, guid: d7b8b457ab683f841abec4912344ffd2, type: 2}
+  - {fileID: 11400000, guid: ef525d1025e524340859b77216e186ee, type: 2}
+  - {fileID: 11400000, guid: 6244a4a53c1af774d87384447bf54e55, type: 2}
+  - {fileID: 11400000, guid: 3d4bdd061c52ac6458396ce95253ba39, type: 2}
+  - {fileID: 11400000, guid: 4ff73637899513c48bf53e3ff8ca0d28, type: 2}
+  - {fileID: 11400000, guid: b4c8a76c60a1810459ed59c7b0ac3c06, type: 2}
+  - {fileID: 11400000, guid: 3815fb2cd8ebbf649aed4a8f0f14b655, type: 2}
+  - {fileID: 11400000, guid: f94a71ee461084d47a235ce202cef489, type: 2}
+  - {fileID: 11400000, guid: ee7bf471afa1db24bba5533d1ace59d5, type: 2}
+  - {fileID: 11400000, guid: 6e0c3c7a7376d914cbe5caa062454ffb, type: 2}
+  - {fileID: 11400000, guid: 51a3d779a8faa11418534438a361b2cc, type: 2}
+  - {fileID: 11400000, guid: d25f97b8a4983b649af37630b4585145, type: 2}
+  - {fileID: 11400000, guid: 1f73fdb634ecfd146acbe02c9434e78c, type: 2}
+  - {fileID: 11400000, guid: 87e9450a000edef449353d3097da951a, type: 2}
+  - {fileID: 11400000, guid: ef9d804166e540842804ce43efcf8fc6, type: 2}
+  - {fileID: 11400000, guid: 0bfd3331091d6294fa10a0f435193542, type: 2}
+  loadedItems: []
+  loadedEquipment: []

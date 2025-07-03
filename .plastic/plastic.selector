@@ -1,0 +1,4 @@
+repository "RPG - Udemy Course@wechat_os_qy0ydatkwjcgc39btbrqpyelo@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

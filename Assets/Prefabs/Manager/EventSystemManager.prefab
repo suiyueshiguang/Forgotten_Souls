@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &856428159538274708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4097183504591360906}
+  - component: {fileID: 1448076954644409927}
+  m_Layer: 0
+  m_Name: EventSystemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4097183504591360906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856428159538274708}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.427611, y: -1.9003644, z: -0.06128844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1448076954644409927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856428159538274708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d77451b429215b41ba08346262d18c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subjectData:
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Sword/
+    datas:
+    - type: 0
+      objectName: "SkillTreeSlot_UI - \u629B\u7269\u5251"
+      transform: {fileID: 0}
+    - type: 1
+      objectName: "SkillTreeSlot_UI - \u786C\u76F4\u5316"
+      transform: {fileID: 0}
+    - type: 2
+      objectName: "SkillTreeSlot_UI - \u7834\u7532"
+      transform: {fileID: 0}
+    - type: 3
+      objectName: "SkillTreeSlot_UI - \u5F39\u5C04\u5251"
+      transform: {fileID: 0}
+    - type: 4
+      objectName: "SkillTreeSlot_UI - \u98DE\u5251"
+      transform: {fileID: 0}
+    - type: 5
+      objectName: "SkillTreeSlot_UI - \u56DE\u65CB\u5251"
+      transform: {fileID: 0}
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Clone/
+    datas:
+    - type: 6
+      objectName: "SkillTreeSlot_UI - \u6B8B\u50CF"
+      transform: {fileID: 0}
+    - type: 10
+      objectName: "SkillTreeSlot_UI - \u9ED1\u6D1E"
+      transform: {fileID: 0}
+    - type: 7
+      objectName: "SkillTreeSlot_UI - \u5206\u8EAB"
+      transform: {fileID: 0}
+    - type: 8
+      objectName: "SkillTreeSlot_UI - \u6295\u5F71"
+      transform: {fileID: 0}
+    - type: 9
+      objectName: "SkillTreeSlot_UI - \u591A\u91CD\u6B8B\u50CF"
+      transform: {fileID: 0}
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Crystal/
+    datas:
+    - type: 11
+      objectName: "SkillTreeSlot_UI - \u6C34\u6676"
+      transform: {fileID: 0}
+    - type: 12
+      objectName: "SkillTreeSlot_UI - \u6C34\u6676\u77AC\u79FB"
+      transform: {fileID: 0}
+    - type: 13
+      objectName: "SkillTreeSlot_UI - \u6C34\u6676\u7206\u70B8"
+      transform: {fileID: 0}
+    - type: 14
+      objectName: "SkillTreeSlot_UI - \u66F4\u597D\u63A7\u5236"
+      transform: {fileID: 0}
+    - type: 15
+      objectName: "SkillTreeSlot_UI - \u66F4\u591A\u6C34\u6676"
+      transform: {fileID: 0}
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Dodge/
+    datas:
+    - type: 16
+      objectName: "SkillTreeSlot_UI - \u95EA\u907F"
+      transform: {fileID: 0}
+    - type: 17
+      objectName: "SkillTreeSlot_UI - \u56DE\u51FB"
+      transform: {fileID: 0}
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Dash/
+    datas:
+    - type: 18
+      objectName: "SkillTreeSlot_UI - \u51B2\u523A"
+      transform: {fileID: 0}
+    - type: 19
+      objectName: "SkillTreeSlot_UI - \u6211\u5728\u8FD9"
+      transform: {fileID: 0}
+    - type: 20
+      objectName: "SkillTreeSlot_UI - \u6211\u5728\u54EA"
+      transform: {fileID: 0}
+  - pathPrefix: DontDestroy/Canvas(Clone)/SkillTree_UI/SkillTree_Background/SkillTree_Parry/
+    datas:
+    - type: 21
+      objectName: "SkillTreeSlot_UI - \u62DB\u67B6"
+      transform: {fileID: 0}
+    - type: 22
+      objectName: "SkillTreeSlot_UI - \u62DB\u67B6\u6062\u590D"
+      transform: {fileID: 0}
+    - type: 23
+      objectName: "SkillTreeSlot_UI - \u5FEB\u901F\u53CD\u5E94"
+      transform: {fileID: 0}
